@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white logo-container">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png"
+            class="food-munch-logo"
+          />
+        </a>
+        <div>
+          <a href="#" class="free-trail mr-2 d-lg-none">Start Free Trial</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" id="navItem1" href="#"
+              >Solutions
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="black"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                /></svg
+            ></a>
+            <a class="nav-link" href="#e" id="navItem2">Pricing </a>
+            <a class="nav-link" href="#" id="navItem3"
+              >Resources<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="black"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+            </a>
+            <a class="nav-link d-lg-none" href="#" id="navItem4">Login</a>
+          </div>
+
+          <!-- Add login and start free trial for all devices -->
+          <div class="d-flex ml-auto">
+            <a class="nav-link login d-none d-lg-block" href="#">Login</a>
+            <button class="btn btn-dark d-none d-lg-block rounded ml-2">
+              Start Free Trial
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-container">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="text-center">
+          <div class="d-lg-block d-md-none d-none pt-5">
+            <div class="btn-container text-center">
+              <button class="dark-btn">Pay Monthly</button>
+              <p class="pay">Pay Yearly Save(25%)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid d-none d-lg-block">
+        <div class="final-container">
+          <div class="basic m-2">
+            <div>
+              <div class="text-center">
+                <button class="most">Most popular</button>
+              </div>
+              <h1>Basic</h1>
+              <p class="para2">FOR INDIVIDUALS AND SMALL BUSINESSES</p>
+              <p>
+                Everything you need to create your store, ship products, and
+                process payments
+              </p>
+              <h1 class="ml-2 heading">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="46"
+                  height="46"
+                  fill="currentColor"
+                  class="bi bi-currency-rupee"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                  /></svg
+                >1,994<span class="small-text"> INR/mo</span>
+              </h1>
+            </div>
+            <div class="col-12 pt-3">
+              <p class="text-center para">
+                Get Your first 3 months for
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-currency-rupee"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                  /></svg
+                >20/mo
+              </p>
+            </div>
+            <div class="col-12 pt-3">
+              <ul class="un-ordered">
+                <p class="para2">What's included in Basic</p>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  Basic Reports
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  Up to 1000 inventory locations
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  2 staff accounts
+                </li>
+              </ul>
+            </div>
+            <div class="button-container mt-4 pt-3">
+              <button class="button-try mx-auto">Try for free</button>
+            </div>
+          </div>
+          <div class="basic m-2">
+            <div class="pt-3">
+              <h1>Shopify</h1>
+              <p class="para2">FOR SMALL BUSINESSES</p>
+              <p>
+                Level up your business with your Professional repoting and more
+                staff accounts
+              </p>
+              <h1 class="ml-2 mt-3 heading">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="46"
+                  height="46"
+                  fill="currentColor"
+                  class="bi bi-currency-rupee"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                  /></svg
+                >7,447<span class="small-text"> INR/mo</span>
+              </h1>
+            </div>
+            <div class="col-12 pt-3">
+              <p class="text-center para">
+                Get Your first 3 months for
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-currency-rupee"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                  /></svg
+                >20/mo
+              </p>
+            </div>
+            <div class="col-12 pt-3">
+              <ul class="un-ordered">
+                <p class="para2">What's included on Basic</p>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  Professional Reports
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  up to 1000 inventory locations
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  5 staff accounts
+                </li>
+
+                <div class="button-container mt-4 pt-3">
+                  <button class="button-try mx-auto">Try for free</button>
+                </div>
+              </ul>
+            </div>
+          </div>
+
+          <div class="basic m-2">
+            <div class="col-12 pt-3">
+              <h1>Advanced</h1>
+              <p class="para2">FOR MEDIUM TO LARGE BUSINESSES</p>
+              <p>
+                Get the best Shopify with custome reporting and our lowest
+                transcation fees
+              </p>
+              <h1 class="ml-2 mt-3 heading">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="46"
+                  height="46"
+                  fill="currentColor"
+                  class="bi bi-currency-rupee"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                  /></svg
+                >30,164<span class="small-text"> INR/mo</span>
+              </h1>
+            </div>
+            <div class="col-12 pt-3">
+              <p class="text-center para">
+                Get Your first 3 months for
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-currency-rupee"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                  /></svg
+                >20/mo
+              </p>
+            </div>
+            <div class="col-12 pt-3">
+              <ul class="un-ordered">
+                <p class="para2">What's included on Basic</p>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  Custom report builder
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  up to 1000 inventory locations
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="#51c766"
+                    class="bi bi-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                    />
+                  </svg>
+                  15 staff accounts
+                </li>
+
+                <div class="button-container mt-4 pt-3">
+                  <button class="button-try mx-auto">Try for free</button>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-lg-none">
+      <div class="row no-gutters items">
+        <div class="col-4">
+          <div class="box no-left-border">
+            <a href="#basicSection" class="anchor">Basic</a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box">
+            <a href="#shopifySection" class="anchor">Shopify</a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box no-right-border">
+            <a href="#advancedSection" class="anchor">Advanced</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="basicSection">
+        <div class="col-12 pt-3">
+          <h1 class="ml-2 mt-3 heading">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="66"
+              height="66"
+              fill="currentColor"
+              class="bi bi-currency-rupee"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+              /></svg
+            >1,994<span class="small-text"> INR/mo</span>
+          </h1>
+        </div>
+        <div class="col-12 pt-3">
+          <p class="text-center para">
+            Get Your first 3 months for
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-currency-rupee"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+              /></svg
+            >20/mo
+          </p>
+        </div>
+        <div class="col-12 pt-3">
+          <ul class="un-ordered">
+            <p class="para2">What's included on Basic</p>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              Basic Reports
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              up to 1000 inventory locations
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              2 staff accounts
+            </li>
+
+            <div class="button-container mt-4 pt-3">
+              <button class="button-try mx-auto">Try for free</button>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" id="shopifySection">
+        <div class="col-12 pt-3">
+          <h1 class="ml-2 mt-3 heading">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="66"
+              height="66"
+              fill="currentColor"
+              class="bi bi-currency-rupee"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+              /></svg
+            >7,447<span class="small-text"> INR/mo</span>
+          </h1>
+        </div>
+        <div class="col-12 pt-3">
+          <p class="text-center para">
+            Get Your first 3 months for
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-currency-rupee"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+              /></svg
+            >20/mo
+          </p>
+        </div>
+        <div class="col-12 pt-3">
+          <ul class="un-ordered">
+            <p class="para2">What's included on Shopify</p>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              Professional Reports
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              up to 1000 inventory locations
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              5 staff accounts
+            </li>
+
+            <div class="button-container mt-4 pt-3">
+              <button class="button-try mx-auto">Try for free</button>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" id="advancedSection">
+        <div class="col-12 pt-3">
+          <h1 class="ml-2 mt-3 heading">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="66"
+              height="66"
+              fill="currentColor"
+              class="bi bi-currency-rupee"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+              /></svg
+            >30,164<span class="small-text"> INR/mo</span>
+          </h1>
+        </div>
+        <div class="col-12 pt-3">
+          <p class="text-center para">
+            Get Your first 3 months for
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-currency-rupee"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+              /></svg
+            >20/mo
+          </p>
+        </div>
+        <div class="col-12 pt-3">
+          <ul class="un-ordered">
+            <p class="para2">What's included on Basic</p>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              Custmoer report builder
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                />
+              </svg>
+              up to 1000 inventory locations
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="#51c766"
+                class="bi bi-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                /></svg
+              >15 staff accounts
+            </li>
+
+            <div class="button-container mt-4 pt-3">
+              <button class="button-try mx-auto">Try for free</button>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
